@@ -30,6 +30,10 @@ public class Employee {
         return fio;
     }
 
+    public int getId() {
+        return id;
+    }
+
     public void setDepartment(int department) {
         this.department = department;
     }
@@ -39,7 +43,7 @@ public class Employee {
     }
 
     public String toString() {
-        return fio + " " + department + " " + salary;
+        return this.fio + " " + this.department + " " + this.salary + " " + this.id;
     }
 
 }
